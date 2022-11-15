@@ -1,0 +1,78 @@
+body {
+
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #696969;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.card {
+    flex: 1 1 300px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__text {
+    flex-grow: 1;
+}
+
+.card__content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card__title {
+
+    font-size: 1.5rem;
+}
+
+.card__text {
+
+    font-size: 0.8rem;
+}
+
+.image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+button {
+    width: 100%;
+    padding: 5px 0;
+    background-color: white;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: #cccccc;
+}
+
+.forest {
+    background-image: url("../forest.jpg");
+}
+
+.flower {
+    background-image: url("../flower.jpg");
+}
+
+.border {
+    background-image: url("../border.jpg");
+}
+
+.music {
+    background-image: url("../music.jpg");
+}
