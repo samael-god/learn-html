@@ -10,6 +10,10 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 50px;
+
+    /*Gap variation*/
+    /*display: grid;*/
+    /*grid-template-columns: repeat(auto-fill, minmax(300px, auto));*/
 }
 
 .card {
@@ -49,7 +53,7 @@ body {
 }
 
 button {
-    width: 100%;
+
     padding: 5px 0;
     background-color: white;
     border: 1px solid #cccccc;
